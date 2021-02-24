@@ -422,7 +422,7 @@ void export_final_info() {
 
 int main() {
 	FILE* filepointer;
-	filepointer = fopen("find_min_test.s", "r");
+	filepointer = fopen("single_cycle_test.s", "r");
 	//Initializaton of values
 	for (i = 0; i < MAX_MEMORY_SIZE; i++) {
 		memory[i].address = 0;
